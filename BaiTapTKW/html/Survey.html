@@ -1,0 +1,72 @@
+<!doctype html>
+<html Lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<title>Bai14</title>
+		<link rel="stylesheet" type="text/css" href="../NhatTruong60139138/css/bai14.css">
+	</head>
+
+	<body>
+		<div id="div1">
+			<form>
+				<label>Your age:</label>
+				<input id="age" maxlength="3" type="number" /><br/>
+			</form>
+			<form>
+				<label>Your gender:</label>
+				<input name="gioitinh" type="radio" checked />Male
+				<input name="gioitinh" type="radio" />Female<br />
+			</form>
+			<form>
+				<label>Check all names of the people listed whom you have heard about:</label><br/>
+				<input name="people" type="checkbox" />Marc Andreessen
+				<input name="people" type="checkbox" />Lisa Schemeiser
+				<input name="people" type="checkbox" />Al Gore
+				<input name="people" type="checkbox" />Boutros Boutros-Ghali<br />
+			</form>
+			<form>
+				<label>What is your favorite Web browser?</label>
+				<input id="list" list="browsers" name="browser">
+					<datalist id="browsers">
+						<option value="Internet Explorer"></option>
+						<option value="Firefox"></option>
+						<option value="Chrome"></option>
+						<option value="Opera"></option>
+						<option value="Safari"></option>
+					</datalist>			
+			</form>
+			<form>
+				<label>Which of these ice cream flavors have you tried?</label>
+				<select multiple="multiple">
+					<option value="1">Vanilla</option>
+					<option value="2">Chocolate</option>
+					<option value="3">Cherry Garcia</option>
+					<option value="4">Cherry Garcia1</option>
+					<option value="5">Cherry Garcia2</option>
+				</select>
+			</form>
+			<form>
+				<label>Guess the secret password:</label>
+				<input id="list1" type="password"/>
+			</form>
+			<form>
+				<label>Do you have an informal nickname?</label>
+				<input name="gioitinh" type="radio" checked />No
+				<input name="gioitinh" type="radio" />Yes, it is:<input id="list2" type="text" />
+			</form>
+			<form>
+				<label>Enter your personal motto:</label><br/>
+				<textarea>All is well the ends well.</textarea>
+			</form>
+			<form>
+					<label>When you are done with the above responses, please submit this information by clicking on your current geographic location on this map:</label><br/>
+					<a href="../html/LocationBai14.html">
+					<img src="../images/worldmap.png" width="124" height="70"/></a>
+			</form>
+			<form>
+				<input type="submit" value="Send this survey" />
+				<input type="button" value="Cancel this survey" />
+			</form>
+		</div>
+	</body>
+</html>
